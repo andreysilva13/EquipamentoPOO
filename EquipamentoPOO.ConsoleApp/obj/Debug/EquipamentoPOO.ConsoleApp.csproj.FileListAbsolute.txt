@@ -1,0 +1,7 @@
+C:\Users\Andrey\source\repos\EquipamentoPOO\EquipamentoPOO.ConsoleApp\obj\Debug\EquipamentoPOO.ConsoleApp.csprojAssemblyReference.cache
+C:\Users\Andrey\source\repos\EquipamentoPOO\EquipamentoPOO.ConsoleApp\obj\Debug\EquipamentoPOO.ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\Andrey\source\repos\EquipamentoPOO\EquipamentoPOO.ConsoleApp\bin\Debug\EquipamentoPOO.ConsoleApp.exe.config
+C:\Users\Andrey\source\repos\EquipamentoPOO\EquipamentoPOO.ConsoleApp\bin\Debug\EquipamentoPOO.ConsoleApp.exe
+C:\Users\Andrey\source\repos\EquipamentoPOO\EquipamentoPOO.ConsoleApp\bin\Debug\EquipamentoPOO.ConsoleApp.pdb
+C:\Users\Andrey\source\repos\EquipamentoPOO\EquipamentoPOO.ConsoleApp\obj\Debug\EquipamentoPOO.ConsoleApp.exe
+C:\Users\Andrey\source\repos\EquipamentoPOO\EquipamentoPOO.ConsoleApp\obj\Debug\EquipamentoPOO.ConsoleApp.pdb
