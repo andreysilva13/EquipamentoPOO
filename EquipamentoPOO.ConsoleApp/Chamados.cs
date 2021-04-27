@@ -13,6 +13,7 @@ namespace EquipamentoPOO.ConsoleApp
         private int idsEquipamentoChamado;
         private int idChamado;
         private DateTime datasAberturaChamado;
+        private string diasDif;
 
         public Chamados(int idC, int id, string titulo, string descricao, DateTime dataAbertura)
         {
@@ -28,6 +29,7 @@ namespace EquipamentoPOO.ConsoleApp
         public int IdsEquipamentoChamado { get => idsEquipamentoChamado; set => idsEquipamentoChamado = value; }
         public int IdChamado { get => idChamado; set => idChamado = value; }
         public DateTime DatasAberturaChamado { get => datasAberturaChamado; set => datasAberturaChamado = value; }
+        public string DiasDif { get => diasDif; set => diasDif = value; }
 
         public override string ToString()
         {

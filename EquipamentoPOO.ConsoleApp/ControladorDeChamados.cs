@@ -17,7 +17,7 @@ namespace EquipamentoPOO.ConsoleApp
 
             Console.Clear();
             EntradaDeDadosChamado(out idC, out titulo, out id, out descricao, out data);
-
+            string diasDif = (DateTime.Now - data).ToString("dd");
             Chamados chamado = new Chamados(idC, id, titulo, descricao, data);
             chamados[contador] = chamado;
             contador++;
@@ -33,7 +33,7 @@ namespace EquipamentoPOO.ConsoleApp
             titulo = Console.ReadLine();
             Console.Write("Descrição do produto: ");
             descricao = Console.ReadLine();
-            data = DateTime.Now;
+            data = DateTime.Now;           
         }
 
         public void Listar()
@@ -47,7 +47,10 @@ namespace EquipamentoPOO.ConsoleApp
             {
                 if (chamados[i].IdChamado != 0)
                 {
+                    string diasDif = (DateTime.Now - chamados[i].DatasAberturaChamado).ToString("dd");
                     Console.WriteLine(chamados[i]);
+                    chamados[i].DiasDif = diasDif;
+                    Console.WriteLine($"Dias aberto: {diasDif}");
                     Console.WriteLine("-------------------------------------------------------");
                 }
                 else

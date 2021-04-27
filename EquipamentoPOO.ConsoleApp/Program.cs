@@ -116,7 +116,8 @@ namespace EquipamentoPOO.ConsoleApp
 
         private static string ObterOpcaoControleChamados()
         {
-            Console.WriteLine("Digite 1 para inserir novo chamadp");
+            Console.Clear();
+            Console.WriteLine("Digite 1 para inserir novo chamado");
             Console.WriteLine("Digite 2 para visualizar chamados");
             Console.WriteLine("Digite 3 para editar um chamado");
             Console.WriteLine("Digite 4 para excluir um chamado");
